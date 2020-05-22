@@ -21,6 +21,11 @@
             <li><a href="/{{ .Lang }}">{{ .LanguageName }}</a></li>
           {{ end }}
         {{- end -}}
+        <li>
+          <a href="{{.Site.BaseURL}}index.xml" title="Subscribe via RSS">
+          <i class="fas fa-rss fa-lg"></i>
+          </a>
+        </li>
         {{- range .Site.Data.social.social_icons -}}
           {{- if isset $.Site.Author .id }}
              <li>
