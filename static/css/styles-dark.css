@@ -110,6 +110,10 @@ time {
   padding-bottom: 0.5em;
 }
 
+#container main section#home h1 a {
+  text-decoration: none;
+}
+
 #container main section#home ul li h2 {
   margin: 0.2em 0;
 }
@@ -264,8 +268,8 @@ width: 100%;
 }
 
 a {
-  color: #ffffff;
-  text-decoration: none;
+  color: #aaaaaa;
+  text-decoration: underline;
 }
 
 .image, figure img, img {
