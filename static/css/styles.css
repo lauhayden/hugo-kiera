@@ -13,13 +13,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-body: #ffffff;
-    --background-body: #2A2829;
+    --color-body: #bebebe;
+    --background-body: #000000;
     --color-header-h1-a: #ffffff;
     --border-bottom-nav-ul-la-a-active: 0.5em solid #ffffff;
     --background-color-main-article-pre: #a0a04b;
     --background-color-main-article-p-code: #741a1a;
-    --color-a: #aaaaaa;
+    --color-a: #8f8f8f;
     --border-left-blockquote: solid 0.1em #797979;
     --background-color-blockquote: #3e3b3c;
     --box-shadow-blockquote: 0 -1px 0 #797979 inset;
